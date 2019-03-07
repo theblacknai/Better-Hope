@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+section p{
+	font-size: 1.3em;
+	font-style: Verdana sans-serif;
+	color:#02d302;
+}
+
+
+/*Navigation Bar*/
+#nav-logo img {
+	border-radius: 80px;
+}
+nav {
+	background-color: rgba(76, 175, 80, 0.3);
+
+}
+#better-color {
+	color: black;
+}
+#foun-color {
+	color: #efc509
+}
+/*Heading*/
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#obj {
+	background-image: url(../images/hope.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	/*padding: 190px;*/
+	background-repeat: no-repeat;
+	font-size: 2em;
+	/*font-family: cursive;*/
+}
+@media screen and (min-width: 760px)
+#obj {
+    font-size: .95em;
+}
+
+#obj div {
+	background:rgba(12,23,22,0.3);
+	color: yellow;
+}
+
+.passion {
+	width: 49%;
+	float: left;
+	text-align: center;
+	padding: 30px;
+	border-radius: 60px;
+	margin: 5px 0.5%;
+}
+
+
+/*Rounded Testimonial pics*/
+
+/*Testimonial*/
+#Testimonials .africa img {
+	margin-right: 30px;
+	float: left;
+
+}
+.side-text {
+	background:rgba(21,132,53, 0.5);
+	border-radius: 10px;
+	float: right;
+}
+
+/*About*/
+#achi, #about{
+	background:rgb(22,13,231,0.2);
+	padding: 13px;
+	border-radius: 30px;
+}
+/*Social Media*/
+.social {padding: 2px;}
+
+
+/*Footer*/
+
+footer {
+	text-transform: uppercase;
+	padding: 30px;
+	background:black;
+	color: white;
+	text-align: center;
+
+}
+
+footer a {
+	text-decoration: none;
+}
+
+/*for the javascript button*/
+#carouselBtn {
+	position: absolute;
+	top: 80%;
+	left: 43%;
+}
+
+#carouselBtn2 {
+	background-color: black;
+	position: absolute;
+	top: 80%;
+	right: 43%;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS links-->
+  <link rel="stylesheet" type="text/css" href="../Bootstrap/css/Bootstrap.css">
+  <!-- Local CSS links-->
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
+  <title>Contact</title>
+</head>
+<body>
+
+
+
+<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg fixed-top">
+	  <a class="navbar-brand" href="../index.html">
+
+	  	<!-- Navigation Logo -->
+	  	<span id="nav-logo"><img src="../images/hope-logo.png" height="70" width="70"><span id="better-color">BetterHope</span><span id="foun-color"> Foundation</span></a></span>
+		
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#stuff" aria-controls="stuff" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon lead">Menu</span>
+	  </button>
+
+		  <div class="collapse navbar-collapse" id="stuff">
+		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+		      <li class="nav-item">
+		      	<a href="../index.html" class="text-white btn btn-success mt-1 mb-1 mr-2">Home</a>
+		      	</li>
+		      <li class="nav-item">
+		      	<a href="blog.html" class=" btn mt-1 mb-1 btn-success mr-2">Testimonials</a>
+		      	</li>
+		      <li class="nav-item">
+		        <a class="text-white mr-2 btn mt-1 mb-1 btn-success" href="contact.html">Contact Us</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="text-white btn mr-2 mt-1 mb-1 btn-success" href="about.html">About Us</a>
+		      </li>
+			</ul>
+		</div>
+	</nav>
+<!-- Contact -->
+<div id="Contact"><br><br><br><br><br><br>
+
+<!-- Contact Form -->
+		<div id="contact-banner"></div>
+
+	<div class="container"> <h2 class="text-center display-4">Contact Us</h2></div>
+		 <form class="needs-validation container text-center" novalidate>
+		    <div class="row mt-4">
+			    <div class="col-sm-3 mb-3">
+			    	<!-- <label for="validationCustom01">Name</label> -->
+			      <input type="text" class="form-control float-left" placeholder="Name" required>      
+				      <div class="valid-feedback">
+				        Looks good!
+				      </div>
+				</div>
+			    <div class="col-sm-3 mb-3">
+			      <input type="text" class="form-control float-left" placeholder="Email" required>
+			    </div>
+			    <div class="col-sm-3 mb-3">
+			      <input type="text" class="form-control float-left" placeholder="Phone Number">
+			      <i class="text-muted">Note: This field is optional</i>
+			    </div>
+		  	</div>
+		  	<div class="row mt-4">
+		  		<div class="col-md">
+					<textarea class="form-control form-control-lg" id="InputForm" placeholder="Message"></textarea>
+				</div>
+			</div> <br>
+			<div class="container text-center">	
+			<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+
+		</form>
+</div> <br><br>
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+<div class="container">
+	<h4>find us on social media</h4>
+	<a class="social" href="https://facebook.com/Betterhopefoundation101"><i class="fab fa-facebook fa-3x"></i></a>FACEBOOK: Betterhopefoundation101
+	<a class="social" href="https://www.youtube.com/user/betterhope101"><i class="fab fa-youtube fa-3x"></i></a> YOUTUBE: betterhope101 <br>
+	<a class="social" href="https://twitter.com/betterhope101"><i class="fab fa-twitter-square fa-3x"></i></a> TWITTER: @betterhope101 <br>
+	<a class="social" href="https://wa.me/09057718082"><i class="fab fa-whatsapp fa-3x"></i></a>
+	WHATSAPP: 09057718082
+</div>
+
+
+
+
+
+<br><br><br>
+
+
+
+
+<!-- Footer -->
+
+		
+		<footer class="text-muted">
+			2019 <span>&copy; BetterHope foundation</span>
+			<span>powered by</span><a href="#" class="text-white"> A-Tech Group</a>
+		</footer>
+
+
+<!-- javascript links-->
+		<!-- jquery -->
+<script type="text/javascript" src="../Bootstrap/js/jquery-slim.min.js"></script>
+		<!-- popper -->
+<script type="text/javascript" src="../Bootstrap/js/popper.min.js"></script>
+		<!-- bootstrap javascript -->
+<script type="text/javascript" src="../Bootstrap/js/Bootstrap.min.js"></script>
+		<!-- local javascript -->
+<!-- <script type="text/javascript" src="js/script.js"></script> -->
+
+
+</body>
+</html>
